@@ -1,0 +1,6 @@
+# for environmental setup: pip install fastapi uvicorn scikit-learn joblib pandas numpy pydantic
+# to run CKD app:python -m fastapi dev main.py
+e.g: PS D:\FYP STUFF\OrganDonorAIModal-main> python -m fastapi dev main.py
+# hospital login credentials:
+-email: ziauddin@gmail.com
+-password: 12345678

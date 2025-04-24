@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CKD Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CKD Prediction System</h1>
+        <form id="predictionForm">
+            <label>Age: <input type="number" id="age" required></label>
+            <label>Blood Pressure (BP): <input type="number" id="bp" required></label>
+            <label>Specific Gravity (SG): <input type="number" step="0.01" id="sg" required></label>
+            <label>Albumin (AL): <input type="number" id="al" required></label>
+            <label>Sugar (SU): <input type="number" id="su" required></label>
+            <label>Red Blood Cells (RBC): <input type="number" id="rbc" required></label>
+            <label>Pus Cells (PC): <input type="number" id="pc" required></label>
+            <label>Pus Cell Clumps (PCC): <input type="number" id="pcc" required></label>
+            <label>Bacteria (BA): <input type="number" id="ba" required></label>
+            <label>Blood Glucose Random (BGR): <input type="number" id="bgr" required></label>
+            <label>Blood Urea (BU): <input type="number" id="bu" required></label>
+            <label>Serum Creatinine (SC): <input type="number" id="sc" required></label>
+            <label>Sodium (SOD): <input type="number" id="sod" required></label>
+            <label>Potassium (POT): <input type="number" id="pot" required></label>
+            <label>Hemoglobin (HEMO): <input type="number" id="hemo" required></label>
+            <label>Packed Cell Volume (PCV): <input type="number" id="pcv" required></label>
+            <label>White Blood Cell Count (WBCC): <input type="number" id="wbcc" required></label>
+            <label>Red Blood Cell Count (RBCC): <input type="number" id="rbcc" required></label>
+            <button type="button" onclick="makePrediction()">Predict</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
